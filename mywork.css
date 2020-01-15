@@ -1,12 +1,45 @@
-body
+.myworkpage
 {
-    background-color: black;
-    color: whitesmoke;
+    /* background-color: black;
+    color: whitesmoke; */
     margin: 10px;
     font-family: monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
 }
+body{
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+
+.img_calc{
+    height: 40px;
+    width: 40px;
+    
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    
+}
+.pro_table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  
+ th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: rgb(23, 107, 107);}
