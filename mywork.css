@@ -1,0 +1,12 @@
+body
+{
+    background-color: black;
+    color: whitesmoke;
+    margin: 10px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

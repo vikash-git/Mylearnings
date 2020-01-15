@@ -1,0 +1,35 @@
+body
+{
+    
+    margin: 0;
+    
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: #0a8269 2px 5px 6px;
+}
+.Site-description{
+    background-color: #1bbc9b;
+    color: white;
+    height: 100vh;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.myworkpage{
+    
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
