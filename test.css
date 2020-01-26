@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body {
+	font-family: Poppins, sans-serif;
+	height: 100vh
+}
+
+
+.wrapper {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 100%;
+	padding: 20px
+}
+
+.text {
+	fill: none;
+	stroke-width: 2px;
+	stroke-linejoin: round;
+	stroke-dasharray: 70px;
+	stroke-dashoffset: 0;
+	-webkit-animation: stroke 6s linear infinite;
+	animation: stroke 6s linear infinite;
+	font-size: 4em;
+	text-transform: uppercase
+}
+
+.text:nth-child(5n+1) {
+	stroke: #f2385a;
+	-webkit-animation-delay: -1.2s;
+	animation-delay: -1.2s
+}
+
+.text:nth-child(5n+2) {
+	stroke: #f5a503;
+	-webkit-animation-delay: -2.4s;
+	animation-delay: -2.4s
+}
+
+.text:nth-child(5n+3) {
+	stroke: #e9f1df;
+	-webkit-animation-delay: -3.6s;
+	animation-delay: -3.6s
+}
+
+.text:nth-child(5n+4) {
+	stroke: #56d9cd;
+	-webkit-animation-delay: -4.8s;
+	animation-delay: -4.8s
+}
+
+.text:nth-child(5n+5) {
+	stroke: #3aa1bf;
+	-webkit-animation-delay: -6s;
+	animation-delay: -6s
+}
+
+@-webkit-keyframes stroke {
+	to {
+		stroke-dashoffset: -400
+	}
+}
+
+@keyframes stroke {
+	to {
+		stroke-dashoffset: -400
+	}
+}
+
+.modal {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+.text-center {
+	text-align: center
+}
+
+.sitebanner {
+	width: 90%;
+	height: 100px;
+	max-width: 800px
+}
